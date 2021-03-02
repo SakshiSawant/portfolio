@@ -1,5 +1,6 @@
 import React from 'react';
 import "./App.css";
+import Nav from "../Nav/Nav";
 
 
 class App extends React.Component{
@@ -7,6 +8,7 @@ class App extends React.Component{
         return(
             <div className="app">
                 {/*Nav Section*/}
+                <Nav />
                 {/*Landing Section*/}
                 {/*About Section*/}
                 {/*Projects Section*/}
