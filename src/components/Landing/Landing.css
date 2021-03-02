@@ -1,12 +1,26 @@
 .landing-container {
   display: flex;
   min-height: 100vh;
-  justify-content: center;
   color: antiquewhite;
   margin: 0;
   flex-wrap: wrap;
 }
 
+.title_block {
+  margin: 0;
+  display: flex;
+  width: 100vw;
+  height: 20vh;
+  justify-content: center;
+  align-items: center;
+}
+
 .title {
   margin: 0;
+  font-size: 92px;
+  letter-spacing: 8px;
+  display: flex;
+}
+.subtitle {
+  margin-top: 150px;
 }
