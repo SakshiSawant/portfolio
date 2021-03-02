@@ -1,0 +1,12 @@
+.landing-container {
+  display: flex;
+  min-height: 100vh;
+  justify-content: center;
+  color: antiquewhite;
+  margin: 0;
+  flex-wrap: wrap;
+}
+
+.title {
+  margin: 0;
+}
