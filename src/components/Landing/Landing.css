@@ -1,9 +1,11 @@
 .landing-container {
-  display: flex;
-  min-height: 100vh;
+  display: flexbox;
+  height: 100vh;
   color: antiquewhite;
+  justify-content: space-between;
   margin: 0;
   flex-wrap: wrap;
+  width: 100vw;
 }
 
 .title_block {
@@ -20,7 +22,21 @@
   font-size: 92px;
   letter-spacing: 8px;
   display: flex;
+  width: 100vw;
+  height: 20vh;
+  justify-content: center;
+  align-items: center;
 }
+
+/*
 .subtitle {
-  margin-top: 150px;
+  display: block;
+  height: 15vh;
+  width: 100vw;
+  display: flex;
+  width: 100vw;
+  height: 20vh;
+  justify-content: center;
+  align-items: center;
 }
+*/
