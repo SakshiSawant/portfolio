@@ -6,7 +6,7 @@ const Landing = () => {
         <div className="landing-container">
             <div className="title_block">
                 <h1 className="title">Sakshi Sawant</h1>
-                <h2 className="subtitle">I'm a</h2>
+                <h1 className="subtitle">I'm a Blogger</h1>
             </div>
             {/*
                 <div className="subtitle_block">

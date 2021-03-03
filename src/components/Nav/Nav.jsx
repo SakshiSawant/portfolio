@@ -11,7 +11,6 @@ const Nav = () => {
                 <a className="nav-link" href="http://google.com" rel="noreferrer">ABOUT</a>
                 <a className="nav-link" href="http://google.com" rel="noreferrer">PROJECTS</a>
             </div>
-
         </div>
     );
 };

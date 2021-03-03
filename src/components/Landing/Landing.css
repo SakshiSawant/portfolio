@@ -2,19 +2,16 @@
   display: flexbox;
   height: 100vh;
   color: antiquewhite;
-  justify-content: space-between;
   margin: 0;
   flex-wrap: wrap;
   width: 100vw;
 }
 
 .title_block {
-  margin: 0;
-  display: flex;
-  width: 100vw;
-  height: 20vh;
-  justify-content: center;
-  align-items: center;
+  margin: 35px;
+  padding-top: 150px;
+  width: 100%;
+  height: 80vh;
 }
 
 .title {
@@ -22,8 +19,16 @@
   font-size: 92px;
   letter-spacing: 8px;
   display: flex;
-  width: 100vw;
+  width: 100%;
   height: 20vh;
+  justify-content: center;
+  align-items: center;
+}
+.subtitle {
+  margin: 0;
+  display: flex;
+  font-size: 70px;
+  width: 100%;
   justify-content: center;
   align-items: center;
 }
