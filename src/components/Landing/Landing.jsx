@@ -1,29 +1,22 @@
 import React from 'react';
 import './Landing.css';
+import Typewriter from 'typewriter-effect';
 
 const Landing = () => {
     return(
         <div className="landing-container">
-            <div className="title_block">
+            <div data-aos="zoom-in" className="title_block">
                 <h1 className="title">Sakshi Sawant</h1>
-                <h1 className="subtitle">I'm a Blogger</h1>
-            </div>
-            {/*
-                <div className="subtitle_block">
-                <h1 className="subtitle">I'm a</h1>
-                <div className="typewriter-container">
+                <h1 className="subtitle">I'm a<pre> </pre>
                     <Typewriter
                         options={{
-                            strings: ['Student', 'Blogger', 'Web Developer'],
+                            strings: ['Student', 'Blogger','Web Developer'],
                             autoStart: true,
                             loop: true,
                         }}
                     />
-                    </div>
-                </div>
-                */}
-                
-
+                </h1>
+            </div>
         </div>
     );
 };
