@@ -1,0 +1,15 @@
+.About {
+  margin: 0;
+  display: flexbox;
+  flex-wrap: wrap;
+  height: 100vh;
+}
+
+.left_section {
+  width: 50vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 40px;
+  color: beige;
+}
