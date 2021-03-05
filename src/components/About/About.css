@@ -9,15 +9,18 @@
 
 .left_section {
   margin: 0;
-  width: 50vw;
+  margin-left: 15px;
+  width: 40vw;
   justify-content: center;
   align-items: center;
   font-size: 40px;
   color: beige;
 }
 .right_section {
-  margin: 0;
-  width: 40vw;
+  margin: 10px;
+  margin-left: 0;
+  margin-right: 20px;
+  width: 45vw;
   color: bisque;
   font-size: 20px;
   justify-content: center;
