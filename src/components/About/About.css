@@ -1,15 +1,24 @@
 .About {
   margin: 0;
-  display: flexbox;
+  display: flex;
+  justify-content: space-between;
+  margin-top: 10px;
   flex-wrap: wrap;
   height: 100vh;
 }
 
 .left_section {
+  margin: 0;
   width: 50vw;
-  display: flex;
   justify-content: center;
   align-items: center;
   font-size: 40px;
   color: beige;
+}
+.right_section {
+  margin: 0;
+  width: 40vw;
+  color: bisque;
+  font-size: 20px;
+  justify-content: center;
 }
