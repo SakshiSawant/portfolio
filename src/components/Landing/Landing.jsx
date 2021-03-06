@@ -7,7 +7,8 @@ const Landing = () => {
         <div className="landing-container">
             <div data-aos="zoom-in" className="title_block">
                 <h1 className="title">Sakshi Sawant</h1>
-                <h1 className="subtitle">I'm a<pre> </pre>
+                <h1 className="subtitle">I'm a</h1>
+                <h1 className="subtitle">
                     <Typewriter
                         options={{
                             strings: ['Student', 'Blogger','Web Developer'],
@@ -22,3 +23,5 @@ const Landing = () => {
 };
 
 export default Landing;
+
+
